@@ -1,5 +1,6 @@
-#include <iostream>
+//Created by Pedro Henrique Rech Sarmento in 17/05/2018
 
+#include <iostream>
 using namespace std;
 
 class maqvenda{
