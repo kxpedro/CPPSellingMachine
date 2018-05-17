@@ -50,6 +50,7 @@ class maqvenda{
 				cout << "2 - Garra d'Agua    - R$2,00" << endl;
 				cout << "3 - Coca Cola 400ml - R$3,00" << endl;
 				cout << "4 - Salgado         - R$5,00" << endl;
+				cout << "0 - Sair"           - << endl;
 				cout << endl;
 				cout << "Saldo: R$" << saldo << ",00"  << endl;
 					
@@ -58,6 +59,8 @@ class maqvenda{
 				switch(opc){
 					case 0:
 						cout << "Saindo..." << endl;
+						system("pause");
+						exit(0);
 						break;
 											
 					case 1:
